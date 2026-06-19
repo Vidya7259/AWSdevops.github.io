@@ -28,4 +28,4 @@ jobs:
             -X POST \
             -H "Authorization: Bearer ${{ secrets.DEPLOY_TOKEN }}" \
             -F "file=@site.zip" \
-            "${{ secrets.DEPLOY_URL }}"
+            ${{ secrets.DEPLOY_URL }}
